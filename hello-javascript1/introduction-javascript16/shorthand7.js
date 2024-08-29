@@ -47,3 +47,8 @@ console.log(num);
 
 const num1 = -50 / 0;
 console.log(num1);
+
+console.log("50" + 2); // + means concat
+console.log("50" - 2);
+console.log("50" * 2);
+console.log("50" / 2);

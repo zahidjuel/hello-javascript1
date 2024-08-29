@@ -43,5 +43,5 @@ var color = 'green';
 color = 'black';
 console.log(color);
 
-var isLovePiku = true;
+var isLovePiku = false;
 console.log(isLovePiku);
