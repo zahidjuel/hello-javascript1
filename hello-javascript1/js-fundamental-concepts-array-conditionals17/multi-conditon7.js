@@ -37,7 +37,7 @@ else {
 var remoteJob = 1;
 var isMyLove = true;
 
-if(remoteJob >= 1 && isMyLove === true){
+if(remoteJob >= 1 || isMyLove === false){
     console.log("I will marry Piku");
 }
 else{

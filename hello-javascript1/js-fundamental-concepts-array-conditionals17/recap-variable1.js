@@ -1,4 +1,4 @@
-// numeric type variable
+// number type variable
 var sunglassPrice = 230;
 console.log(typeof sunglassPrice);
 

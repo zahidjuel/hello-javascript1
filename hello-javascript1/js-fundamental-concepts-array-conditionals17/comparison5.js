@@ -36,4 +36,6 @@ console.log(num1 !== num2);
 // money1 || money2 && result1 || result2 && height1 || height2;
 
 console.log(6 === "6"); // check equal value & equal type
+console.log(6 == '6');
 console.log(6 !== 6); // check not equal value & not equal type 
+console.log(6 !== '6'); //check not equal value &  equal type

@@ -41,7 +41,7 @@ else {
 
 var isMyLove = true;
 
-if(isMyLove === true){
+if(isMyLove === false){
     console.log('Inshaallah, Allah amader duijon ke ek kore diben!!!!')
 }
 else{

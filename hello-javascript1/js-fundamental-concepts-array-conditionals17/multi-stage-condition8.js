@@ -38,3 +38,46 @@ if (math == true) {
 else {
     console.log('I can not  mathematics');
 }
+
+// discount 
+
+const totalCost = 4000;
+if(totalCost >= 5000){
+    // 10% discount 
+    const discountAmount = (totalCost * 10) / 100;
+    // console.log(discountAmount);
+    const payAmount = totalCost - discountAmount;
+    console.log(payAmount);
+}
+
+else if(totalCost >= 2500){
+     // 5% discount 
+     const discountAmount = (totalCost * 5) / 100;
+     // console.log(discountAmount);
+     const payAmount = totalCost - discountAmount;
+     console.log(payAmount);
+}
+
+else{
+    console.log(totalCost);
+}
+
+
+// BMI Calculator
+let height = 176.784;
+let weight = 68;
+let heightInMeters = height / 100; // Convert height from cm to meters
+let bmi = weight / (heightInMeters * heightInMeters);
+
+console.log(bmi);
+
+if (bmi < 18.5) {
+    console.log("Under weight");
+} else if (bmi >= 18.5 && bmi < 24.9) {
+    console.log("Normal Weight");
+} else if (bmi >= 25 && bmi < 29.9) {
+    console.log("Over Weight");
+} else {
+    console.log("Obese");
+}
+
