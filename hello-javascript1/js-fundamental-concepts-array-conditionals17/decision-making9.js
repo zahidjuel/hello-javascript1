@@ -48,3 +48,44 @@ console.log(bookPrice); // 220
 bookPrice = myStudent == true ? isLeader === false ? bookPrice / 2 : 600 : bookPrice + 100;
 
 console.log(bookPrice);
+
+// logical operator 
+
+let age1 = 25;
+let hasDrivingLicense = true;
+
+// Using logical AND (&&) to check if both conditions are true
+if (age1 >= 18 && hasDrivingLicense) {
+    console.log("You are allowed to drive.");
+} else {
+    console.log("You are not allowed to drive.");
+}
+
+
+// Using logical OR (&&) to check if at least one condition is true
+let isWeekend = true;
+let isHoliday = false;
+
+if (isWeekend && !isHoliday) {
+    console.log("You can relax today.");
+} else {
+    console.log("It's a regular workday.");
+}
+
+
+// Using logical NOT (!) to check if a condition is false
+let isRainy = false;
+
+if (!isRainy) {
+    console.log("It's not raining, you can go outside.");
+} else {
+    console.log("It's raining, better stay indoors.");
+}
+
+
+console.log(!0);
+console.log(!1);
+console.log(!2);
+console.log(!4);
+console.log(!!10);
+console.log(!!!10);
