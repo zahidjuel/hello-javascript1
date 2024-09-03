@@ -68,6 +68,7 @@ console.log(isNaN(num5));
 console.log(' ');
 
 console.log(mixedArray.join());
+console.log(mixedArray.join(' '));
 console.log(mixedArray.join('+'));
 console.log(mixedArray.join('='));
 
@@ -78,6 +79,7 @@ console.log(mixedArray.slice(2, 4));
 const addArray = myArray.concat(mixedArray);
 console.log(addArray);
 console.log(addArray.splice(5, 3));
+
 
 
 
