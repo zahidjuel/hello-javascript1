@@ -17,6 +17,7 @@ console.log("The sum reached or exceeded 100.");
 console.log("Sum:", s);
 console.log("Last added number:", n);
 
+console.log(Math.sqrt(4));
 let num = 10;
 console.log(Math.sqrt(num) %  1);
 

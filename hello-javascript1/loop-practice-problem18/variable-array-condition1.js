@@ -43,6 +43,7 @@ else {
 // for of loop
 const numbers = [1,2,3,4,5];
 for (const num of numbers) {
-    console.log(num, "Piku ke biya korte hobe!!!");
+    console.log(num, "Subha ke biya korte hobe!!!");
     
 }
+
