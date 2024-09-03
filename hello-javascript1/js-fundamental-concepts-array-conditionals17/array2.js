@@ -51,7 +51,7 @@ console.log(mixedArray);
 console.log(mixedArray.includes('Jarin'));
 console.log(mixedArray.includes(121));
 
-if (mixedArray.includes('jarin')) {
+if (mixedArray.includes('Jarin')) {
     console.log('I will marry Jarin');
 }
 else {
