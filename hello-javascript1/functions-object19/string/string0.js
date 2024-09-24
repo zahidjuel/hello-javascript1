@@ -1,7 +1,9 @@
-const array = new Array(5);
+const array = new Array(4);
 console.log(array);
 console.log(Array.isArray(array));
 console.log(typeof array); // Object 
+
+console.log(typeof[1,2,3]); // object
 
 const num = "Pinkey Chowdhury";
 const district = `Noakhali`;
@@ -48,7 +50,7 @@ console.log(amarJanPakhi[4]);
 console.log(amarJanPakhi.indexOf('z'));
 console.log(amarJanPakhi.indexOf('C'));
 console.log(amarJanPakhi.includes("P"));
-console.log(amarJanPakhi.includes("PinK"));
+console.log(amarJanPakhi.includes("PinK")); // capital k
 console.log(amarJanPakhi.slice(2, 5));
 console.log(amarJanPakhi.substring(3, 9));
 
@@ -67,6 +69,8 @@ console.log(array1.concat(arr2));
 const fname = 'Zahid';
 const lname = 'Juel';
 console.log(fname.concat(' ').concat(lname));
+
+console.log(2 + 3 + '5' + 'z');
 
 
 

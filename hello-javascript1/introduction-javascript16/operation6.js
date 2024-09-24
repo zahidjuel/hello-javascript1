@@ -36,14 +36,20 @@ console.log(' ');
 var n1 = 0.1;
 var n2 = 0.2;
 var sum = n1 + n2;
-console.log(sum); // string
+console.log(sum); 
+console.log(sum.toFixed(1)); // string
 console.log(parseFloat(sum.toFixed(1))); // convert sring to  number
 
 console.log(20 + '20');
 console.log(20 + 'z');
+console.log(typeof(20 + 'z'));
 
-var penPrice = parseInt('Book');
+
 var bookPrice = 120;
+var penPrice = parseInt('Book');
 var costPrice = penPrice + bookPrice;
 console.log(costPrice);
 console.log(typeof(penPrice));
+
+console.log(isNaN('book'));
+console.log(isNaN('20'));

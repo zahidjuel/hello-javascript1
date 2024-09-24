@@ -41,3 +41,6 @@ var gpa = '3.67';
 console.log(gpa)
 gpa = parseFloat(gpa);
 console.log(gpa);
+
+console.log("zahid" + 4);
+console.log("zahid" - 4);
