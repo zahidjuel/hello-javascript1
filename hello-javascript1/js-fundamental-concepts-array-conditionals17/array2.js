@@ -4,7 +4,7 @@ var picnicFees = [5000, 4000, 450, 150, 340, 567, 867, 432];
 console.log(picnicFees);
 console.log(picnicFees.length);
 
-var specialPersons = ['Alif', 'Piku', 'Zahid'];
+var specialPersons = ['Alif', 'Piku', 'Zahid', 'Subha'];
 console.log(specialPersons);
 console.log(specialPersons.length);
 

@@ -1,6 +1,6 @@
 // use push to add an element to an array as the last element array
 
-var number = [23, 45, 67, 78]
+var number = [23, 45, 67, 78];
 console.log(number);
 number.push(45);
 number.push(34);
