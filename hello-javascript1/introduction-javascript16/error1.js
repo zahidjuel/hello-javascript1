@@ -1,6 +1,6 @@
-console.log(0987654321);
-console.log(045);
-console.log(043);
-console.log(010);
+console.log(0o7654321);
+console.log(0o45);
+console.log(0o43);
+console.log(0o10);
 console.log(0xf);
 console.log(0x11);

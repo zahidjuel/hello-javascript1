@@ -2,7 +2,7 @@
 
 // A variable is a value that can change, depending on conditions or information's passed to the program. 
 
-// numeric
+// number
 
 var price = 11;
 var age = 38;
@@ -23,7 +23,7 @@ var title = 'Love Programming';
 var countryName = 'Bangladesh';
 var isSingle = 'complicated'
 
-// Boolean
+// boolean
 
 var isHappy = false;
 var isLove = true;
@@ -35,7 +35,7 @@ var isSingle = true;
 var bananaPrice;
 console.log(bananaPrice);
 
-// primitive data types (numeric, string, boolean, undefined)
+// primitive data types (number, string, boolean, undefined)
 // non-primitive data types (array, object)
 
 

@@ -52,3 +52,4 @@ console.log("50" + 2); // + means concat
 console.log("50" - 2);
 console.log("50" * 2);
 console.log("50" / 2);
+console.log(parseInt("book") + 34);
