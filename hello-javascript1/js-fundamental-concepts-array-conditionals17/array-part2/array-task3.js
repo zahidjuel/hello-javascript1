@@ -43,7 +43,9 @@ console.log(fullName);
 const statement = 'I am a hard working person';
 
 const word_array = statement.split(' ');
+console.log(word_array);
 const word_array_revese = word_array.reverse();
+console.log(word_array_revese);
 
 let newString = '';
 

@@ -26,6 +26,8 @@ console.log(ghurteJabo[ghurteJabo.length - 1], ghurteJabo[ghurteJabo.length - 2]
 
 ghurteJabo.pop();
 console.log(ghurteJabo);
+ghurteJabo.unshift("Rajshahi");
+console.log(ghurteJabo);
 
 
 // 3. Checking Array Membership with ‘includes’
@@ -77,3 +79,5 @@ console.log(books);
 console.log(ghurteJabo);
 const addArray = books.concat(ghurteJabo);
 console.log(addArray);
+
+console.log(addArray.join(' '));
