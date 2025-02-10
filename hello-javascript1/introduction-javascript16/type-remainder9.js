@@ -71,3 +71,4 @@ console.log('4' * 2);
 console.log(Number('4')); // convert string to number use  Number()
 
 
+
