@@ -59,4 +59,9 @@ for (const key in myObject) {
     console.log('key:', key, '|', 'type:', typeof (myObject[key]));
 }
 
+// Consider the following code snippet:
+
+const str = "Hello";
+str[0] = "h";
+console.log(str);
 

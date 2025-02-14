@@ -107,13 +107,14 @@ for (let prop in myObject) {
 
 
 const x = ""
-// console.log(x.length);
+// console.log(x.length);  
 
 if (!x.length) {
     console.log("Hey")
 } else {
     console.log("Hi")
 }
+
 
 
 
