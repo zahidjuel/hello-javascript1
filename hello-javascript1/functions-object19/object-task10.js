@@ -58,7 +58,7 @@ let myObject = {
 for (const key in myObject) {
     console.log('key:', key, '|', 'type:', typeof (myObject[key]));
 }
-
+console.log(myObject.usno);
 // Consider the following code snippet:
 
 const str = "Hello";
